@@ -1,1 +1,6 @@
-# CS372_FinalProject
+# Bacterial Pattern Prediction
+The goal of this project was to download an existing code base used to predict bacterial growth patternings from simulations of their initial seeds. My contribution was modifying the training script in order to see if there was further optimization to be found in the hyperparameters.
+## What It Does
+My side of the project was testing the Control Diffusion Latent Model for predicting experimental bacterial growth patterns from mechanistic simulations of initial seeds. The first component to this is that there is a pretrained VAE that encodes a latent representation of an image of the simulation. This then acts as an input to the diffusion model, much in the same way as a CLIP embedding of a text prompt. The diffusion model is a combination of a Stable Diffusion model with pretrained weights and a ControlNet architecture whose weights are randomly configured. This means that during training, both transfer learning as well as normal training are occuring. The diffusion model is used to create a prediction of the true experimental patterns, and this is compared to images that were taken of experiments perfomed with the same starting seed.
+## Quick Start
+All data files were donwloaded from this [Huggingface Library](https://huggingface.co/datasets/HotshotGoku/Physics_constrained_DL_pattern_prediction). Download these files, and then extract them. 

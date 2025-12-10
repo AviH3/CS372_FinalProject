@@ -13,4 +13,17 @@ The training scripts should then be run, followed by the batch infer script for 
 ## Video Links
 Videos can either be found as mp4s in the videos folder or at these links for the [demo](https://duke.zoom.us/rec/play/c9Dw93wIFj5_LjVKdi6rvnfzP5gGg3ZLi68ebys5m4LWoFnotbfaCQWkSA4idK3DsCm0YA-gEjlYSzCy.v6OuGvxOGhIK7hdu) and [technical walkthrough](https://duke.zoom.us/rec/play/d4fAGYvUWnWATSN9oH4A9aVhhc2AUFsj7GOQvmEOOjI0UqXwKzn4krE-FU9laInwmifNLAmwrKG5X-vV.VlzA9NZPDQG6eevl). The correct video for technical walkthough in the repo is the one titled technical_walkthrough, ignore technical 1 and 2.
 ## Evaluation
-Chart for: 
+Quantitative results of different tests:
+
+![alt text](Data/Qual_inf/technical.png)
+
+To read the qualitative analysis, the top line is the experimental image, the middle is the model's prediction, and the third is the SSIM score for the image.
+
+Qualitative Baseline:
+![alt text](Data/Qual_inf/baseline.png)
+Qualitative CFG1:
+![alt text](Data/Qual_inf/CFG1.png)
+Qualitative Step 2:
+![alt text](Data/Qual_inf/Steps2.png)
+Qualitative CFG4:
+![alt text](Data/Qual_inf/CFG4.png)

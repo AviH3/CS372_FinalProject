@@ -11,6 +11,6 @@ Create the conda environment first. Next, extract all data from the Huggingface 
 ```
 The training scripts should then be run, followed by the batch infer script for each checkpoint created. This should create many new inference folders with predictions from the new models, which can then be used in the quantmetric notebook found in notebooks.
 ## Video Links
-Videos can either be found as mp4s in the videos folder or at these links for the [demo](https://duke.zoom.us/rec/play/c9Dw93wIFj5_LjVKdi6rvnfzP5gGg3ZLi68ebys5m4LWoFnotbfaCQWkSA4idK3DsCm0YA-gEjlYSzCy.v6OuGvxOGhIK7hdu) and [technical walkthrough](https://duke.zoom.us/rec/play/d4fAGYvUWnWATSN9oH4A9aVhhc2AUFsj7GOQvmEOOjI0UqXwKzn4krE-FU9laInwmifNLAmwrKG5X-vV.VlzA9NZPDQG6eevl).
+Videos can either be found as mp4s in the videos folder or at these links for the [demo](https://duke.zoom.us/rec/play/c9Dw93wIFj5_LjVKdi6rvnfzP5gGg3ZLi68ebys5m4LWoFnotbfaCQWkSA4idK3DsCm0YA-gEjlYSzCy.v6OuGvxOGhIK7hdu) and [technical walkthrough](https://duke.zoom.us/rec/play/d4fAGYvUWnWATSN9oH4A9aVhhc2AUFsj7GOQvmEOOjI0UqXwKzn4krE-FU9laInwmifNLAmwrKG5X-vV.VlzA9NZPDQG6eevl). The correct video for technical walkthough in the repo is the one titled technical_walkthrough, ignore technical 1 and 2.
 ## Evaluation
 Chart for: 
